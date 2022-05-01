@@ -1,8 +1,8 @@
 // Copyright 2021 NNTU-CS
 #include <string>
 #include <map>
-#include "tstack.h"
 #include <stack>
+#include "tstack.h"
 int prior(char z) {
   switch (z) {
     case '(':
@@ -30,7 +30,6 @@ bool search(std::string s, char z) {
 }
 
 std::string infx2pstfx(std::string inf) {
-  return std::string("");
    TStack<char, 100> stack;
   std::stack<char> Stack;
   std::string number = "0123456789";
@@ -82,7 +81,6 @@ std::string infx2pstfx(std::string inf) {
 }
 
 int eval(std::string pref) {
-  return 0;
     int mm = 0;
   std::stack<int> Stack;
   TStack<int, 100> stack;
