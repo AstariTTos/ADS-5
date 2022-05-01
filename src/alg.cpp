@@ -79,9 +79,8 @@ std::string infx2pstfx(std::string inf) {
   }
   return rt;
 }
-
 int eval(std::string pref) {
-    int mm = 0;
+  int mm = 0;
   std::stack<int> Stack;
   TStack<int, 100> stack;
   std::string number = "0123456789";
